@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Justa</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="lista">
+        <h1>Lista de Afazeres</h1>
+     <table>
+  <thead>
+    <tr class="heading">
+      <th>Tarefa</th>
+      <th>Pontos</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr class="linha-tarefa">
+      <td>Água/Comida dos Cachorros</td>
+      <td>1</td>
+    </tr>
+
+    <tr class="linha-tarefa">
+      <td>Recolher o cocô</td>
+      <td>3</td>
+    </tr>
+
+    <tr class="linha-tarefa">
+      <td>Pegar roupa</td>
+      <td>2</td>
+    </tr>
+    <tr class="linha-tarefa">
+      <td>Pendurar roupa</td>
+      <td>3</td>
+      
+    <tr class="linha-tarefa">
+      <td>Lavar a Louça</td>
+      <td>5</td>
+      
+        <tr class="linha-tarefa">
+      <td>Trocar a Roupa de Cama</td>
+      <td>2</td>
+    </tr>
+
+    <tr class="linha-tarefa">
+      <td>Trocar os Lixos</td>
+      <td>1</td>
+    </tr>
+
+         <tr class="linha-tarefa">
+      <td>Limpar Móveis</td>
+      <td>5</td>
+    </tr>
+      
+
+       <tr class="linha-tarefa">
+      <td>Aspirar</td>
+      <td>3</td>
+    </tr>
+   
+    <tr class="linha-tarefa">
+      <td>Passar Pano</td>
+      <td>5</td>
+    </tr>
+
+      <tr class="linha-tarefa">
+      
+        <td>FAXINA COMPLETA</td>
+        <td>10</td>
+    </tr>
+    </tr>
+  </tbody>
+   <tfoot>
+      <tr>
+        <td><strong>Total</strong></td>
+        <td id="total-pontos">0</td>
+      </tr>
+    </tfoot>
+</table>
+
+    <button id="btn-desselecionar" style="margin-top: 10px; padding: 10px 25px; background-color: #f44; color: white; border: none; border-radius: 6px; font-weight: 700; cursor: pointer;">
+  Desselecionar Tudo
+</button>
+
+
+    </div>
+
+    <div class="bandeja">
+    <!-- From Uiverse.io by aboalsim114 --> 
+    <p>⭠</p>
+   
+    <label id="toggle-bg-checkbox" class="toggle-switch" for="toggle-switch">
+    <input type="checkbox" id="toggle-switch">
+    <div class="slider"></div>
+    </label>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
