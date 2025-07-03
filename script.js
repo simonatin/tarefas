@@ -81,3 +81,4 @@ document.getElementById('toggle-bg-checkbox').addEventListener('change', functio
 document.getElementById('toggle-bg-checkbox').addEventListener('change', function () {
   document.body.classList.toggle('bg-com-imagem', this.checked);
 });
+
