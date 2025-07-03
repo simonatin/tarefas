@@ -48,7 +48,12 @@ body.bg-com-imagem::before {
 /* Opcional: para telas pequenas, diminuir o blur para performance */
 @media screen and (max-width: 600px) {
   body::before {
-    filter: blur(-3px);
+    background-image:
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url('https://casa.abril.com.br/wp-content/uploads/2021/08/Benefi%CC%81cios-da-mu%CC%81sica-na-hora-da-faxina-unsplash-10.jpg?quality=70&strip=info&w=720&crop=1');
+    background-position: center top; /* pode ajustar para ficar melhor */
+    background-size: cover;
+    filter: blur(3px); /* filtro menor para celular */
   }
 }
 
