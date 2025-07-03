@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   inputExtras.addEventListener('input', atualizarTotal);
-
+  
   btnDesselecionar.addEventListener('click', () => {
     linhas.forEach(linha => linha.classList.remove('selecionada'));
     atualizarTotal();
@@ -42,14 +42,12 @@ document.getElementById('toggle-bg-checkbox').addEventListener('change', functio
   document.body.classList.toggle('bg-com-imagem', this.checked);
 });
 
-
   // Desselecionar tudo ao clicar no botão
   btnDesselecionar.addEventListener('click', () => {
     linhas.forEach(linha => linha.classList.remove('selecionada'));
     atualizarTotal(); // Zera o total também
   });
 ;
-
 // Ativa/desativa fundo com imagem
 document.getElementById('toggle-bg-checkbox').addEventListener('change', function () {
   document.body.classList.toggle('bg-com-imagem', this.checked);
